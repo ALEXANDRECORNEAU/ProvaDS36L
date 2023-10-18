@@ -1,9 +1,12 @@
 export default function Header() {
     return (
-        <header className="text-center  bg-gray-950	 rounded-t text-white md:flex justify-between ">
-            <h4>G</h4>
+        <header className="text-left text-black sm:flex sm:justify-between">
+  <h4 className="text-white sm:text-base p-2 bg-gray-950 rounded-full flex items-center">G</h4>
+  <h4 className="text-left ml-2">Travel</h4>
+
+      
             <nav>
-                <a className="hover:text-[#00e77f]  " href="#">
+                <a className="text-white sm:text-base p-2 bg-gray-950 rounded-full " href="#">
                 Any Query? &nbsp;
                 </a>
             </nav>
