@@ -1,10 +1,10 @@
-import Header from "./components/Header";
+import mobli from "./components/mobli";
 
 
 export default function Home() {
   return (
     <div>
-      <Header />
+      <mobli />
     </div>
 
   )
