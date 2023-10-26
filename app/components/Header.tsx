@@ -1,8 +1,7 @@
 export default function Header() {
   return (
     <main className="grid gap lg:grid-cols ms:grid-cols-1 bg-stone-100">
-      <div className=" md:flex items-center flex-row-reverse md:col-span-2 lg:col-span-3 mt-4 text-center text-white">
-      </div>
+      <div className=" md:col-span-2 lg:col-span-3 mt-4 text-center text-white">
       <div className="place-items-center rounded-sm pb-2">
         <a href="/curso_html.html">
           <div className="flex justify-center">
@@ -16,6 +15,7 @@ export default function Header() {
           </div>
           <h4 className="text-center text-white bg-black w-24 rounded hover:bg-black hover:text-white ">Find</h4>
         </a>
+      </div>
       </div>
       <div className="bg-white	 place-items-center rounded-sm pb-2">
         <a href="#">
