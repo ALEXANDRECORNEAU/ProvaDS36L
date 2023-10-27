@@ -11,7 +11,7 @@ export default function Header() {
           <h1>Choose your plan</h1>
           <h2 className="text-2xl ">Make your best tour plan with us</h2>
           <h1>Select or Search your best plans</h1>
-          <h6>#TravelPhotography#InstaTravel <br />
+          <h6 className="text-[#64748B]">#TravelPhotography#InstaTravel <br />
             #TravelCouples#TravelGoals#SoloTravel
             #TravelInspiration#PassportReady</h6>
           <h4 className=" text-white bg-black w-24 rounded hover:bg-black hover:text-white ">Find</h4>
@@ -46,13 +46,13 @@ export default function Header() {
               transportation, and expert guides. Book your Thailand
               adventure with GTravel today and create lasting memories
               in the Land of Smiles.</p>
+              <p className="underline text-black">Read More</p>
             <h4 className="text-white bg-black w-24 rounded hover:bg-black hover:text-white">Find</h4>
           </div>
         </div>
-
-      </div>
-
       
+      </div>
+      <h2 className="text-left text-[#64748B]">Pricing</h2>
             <h4 className="text-left text-5xl">Check your tour plans</h4>
     <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
       <div className="place-items-center rounded-sm pb-2">
@@ -62,7 +62,7 @@ export default function Header() {
           <div className="flex justify-center">
             <img src="/img/image3.svg" alt="" />
           </div>
-          <div className="flex justify-between">
+          <div className="flex justify-between text-[#64748B]">
             <h4 className="text-center ">Team tour</h4>
             <h4 className="text-right ">$455/Person</h4>
           </div>
@@ -70,7 +70,7 @@ export default function Header() {
             <h3 className="text-center text-2xl">Confirm your group tour recent packages</h3>
           </div>
           <div className="flex justify">
-            <img src="/img/map.png" alt="" />
+            <img src="/img/map.svg" alt="" />
             <h4> Morocco</h4>
           </div>
         
@@ -81,7 +81,7 @@ export default function Header() {
           <div className="flex justify-center">
             <img src="/img/image4.svg" alt="" />
           </div>
-          <div className="flex justify-between">
+          <div className="flex justify-between text-[#64748B]">
             <h4 className="text-center ">Team tour</h4>
             <h4 className="text-right ">$405/Person</h4>
           </div>
@@ -89,7 +89,7 @@ export default function Header() {
             <h3 className="text-center text-2xl">Make your adventures comfortable</h3>
           </div>
           <div className="flex justify">
-            <img src="/img/map.png" alt="" />
+            <img src="/img/map.svg" alt="" />
             <h4>  Switzerland</h4>
           </div>
        
@@ -99,7 +99,7 @@ export default function Header() {
           <div className="flex justify-center">
             <img src="/img/image5.svg" alt="" />
           </div>
-          <div className="flex justify-between">
+          <div className="flex justify-between text-[#64748B]">
             <h4 className="text-center ">Team tour</h4>
             <h4 className="text-right ">$355/Person</h4>
           </div>
@@ -107,7 +107,7 @@ export default function Header() {
             <h3 className="text-center text-2xl">Get secured tour plan with your spouse</h3>
           </div>
           <div className="flex justify">
-            <img src="/img/map.png" alt="" />
+            <img src="/img/map.svg" alt="" />
             <h4> Singapore</h4>
           </div>
       
@@ -117,7 +117,7 @@ export default function Header() {
           <div className="flex justify-center">
             <img src="/img/image6.svg" alt="" />
           </div>
-          <div className="flex justify-between">
+          <div className="flex justify-between text-[#64748B]">
             <h4 className="text-center ">Team tour</h4>
             <h4 className="text-right ">$400/Person</h4>
           </div>
@@ -125,7 +125,7 @@ export default function Header() {
             <h3 className="text-center text-2xl">Explore the paris streets at peace</h3>
           </div>
           <div className="flex justify">
-            <img src="/img/map.png" alt="" />
+            <img src="/img/map.svg" alt="" />
             <h4>Paris</h4>
           </div>
        
