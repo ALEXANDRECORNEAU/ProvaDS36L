@@ -112,7 +112,7 @@ export default function Header() {
           </div>
       
       </div>
-      <div className="place-items-center rounded-sm pb-2">
+      <div className="place-items-center rounded-sm  pb-2">
        
           <div className="flex justify-center">
             <img src="/img/image6.svg" alt="" />
