@@ -37,7 +37,7 @@ export default function Header() {
             <p>Experience the magic of Thailand with GTravel in
               December! Our expertly curated trip will take you on an
               unforgettable journey through this vibrant and captivating
-              country. Discover the stunning beaches of Thailand's
+              country. Discover the stunning beaches of Thailand s
               southern islands, such as Phuket, Krabi, or Koh Samui, where
               you can bask in the warm tropical sun and indulge in water
               sports.
