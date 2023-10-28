@@ -46,17 +46,17 @@ export default function Header() {
               transportation, and expert guides. Book your Thailand
               adventure with GTravel today and create lasting memories
               in the Land of Smiles.</p>
-              <p className="underline text-black">Read More</p>
+            <p className="underline text-black">Read More</p>
             <h4 className="text-white bg-black w-24 rounded hover:bg-black hover:text-white">Find</h4>
           </div>
         </div>
-      
+
       </div>
       <h2 className="text-left text-[#64748B]">Pricing</h2>
-            <h4 className="text-left text-5xl">Check your tour plans</h4>
-    <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
-      <div className="place-items-center rounded-sm pb-2">
-       
+      <h4 className="text-left text-5xl">Check your tour plans</h4>
+      <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+        <div className="place-items-center rounded-sm pb-2">
+
           <div >
           </div>
           <div className="flex justify-center">
@@ -73,11 +73,11 @@ export default function Header() {
             <img src="/img/map.svg" alt="" />
             <h4> Morocco</h4>
           </div>
-        
-      </div>
 
-      <div className="place-items-center rounded-sm pb-2">
-       
+        </div>
+
+        <div className="place-items-center rounded-sm pb-2">
+
           <div className="flex justify-center">
             <img src="/img/image4.svg" alt="" />
           </div>
@@ -92,10 +92,10 @@ export default function Header() {
             <img src="/img/map.svg" alt="" />
             <h4>  Switzerland</h4>
           </div>
-       
-      </div>
-      <div className="place-items-center rounded-sm pb-2">
-        
+
+        </div>
+        <div className="place-items-center rounded-sm pb-2">
+
           <div className="flex justify-center">
             <img src="/img/image5.svg" alt="" />
           </div>
@@ -110,10 +110,10 @@ export default function Header() {
             <img src="/img/map.svg" alt="" />
             <h4> Singapore</h4>
           </div>
-      
-      </div>
-      <div className="place-items-center rounded-sm  pb-2">
-       
+
+        </div>
+        <div className="place-items-center rounded-sm  pb-2">
+
           <div className="flex justify-center">
             <img src="/img/image6.svg" alt="" />
           </div>
@@ -128,8 +128,8 @@ export default function Header() {
             <img src="/img/map.svg" alt="" />
             <h4>Paris</h4>
           </div>
-       
-      </div>
+
+        </div>
       </div>
     </main>
   )
